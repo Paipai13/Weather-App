@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(60deg, #bdd0dd, #00d4ff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "DM Serif Display", serif;
+  Margin: 0;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+input{
+  background-color: #FFF;
+  border: none;
+  border-radius: 25px;
+  padding: 1rem;
+  font-family: inherit;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  min-width: 300px;
+  font-size: 1rem;
+}
+
+input:focus{
+  outline: none;
+}
+
+.weather{
+  text-align: center;
+  font-size: 2rem;
+}
+
+.weather h2{
+  margin-bottom: 0;
+  display:flex;
+  align-items: center;
+}
+
+.weather h6{
+  margin-top: 0;
+}
